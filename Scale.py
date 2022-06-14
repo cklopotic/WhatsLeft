@@ -34,6 +34,6 @@ def get_remaining_weight_lbs():
     
 def get_status_remaining():
     weight_lbs = get_remaining_weight_lbs()
-    level_percent = round(weight_lbs / (FULL_WEIGHT_LBS - EMPTY_WEIGHT_LBS),2)
+    level_percent = round((weight_lbs / (FULL_WEIGHT_LBS - EMPTY_WEIGHT_LBS))*100,1)
     units_remain = round((weight_lbs*OZ_PER_LB / OZ_PER_UNIT),2)
     return {'weight_lbs':weight_lbs, 'level_percent':level_percent, 'units_remain':units_remain}
