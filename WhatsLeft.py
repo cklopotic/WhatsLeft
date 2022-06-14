@@ -7,7 +7,7 @@ import Scale
 stats = Scale.get_status_remaining()
 background = Display.setup()
 
-DEMO = True
+DEMO = False
 temp=100
 
 while True:
