@@ -10,4 +10,4 @@ I embedded the dislay into the tapper handle so you can monitor your keg with ev
 2)  Install the following three support packages for the Display and the Scale
     - `pip install Adafruit-Blinka`
     - `pip3 install adafruit-circuitpython-rgb-display`
-    - `pip3 install 'git+https://github.com/bytedisciple/HX711.git#egg=HX711&subdirectory=HX711_Python3'`
+    - `pip3 install 'git+https://github.com/gandalf15/HX711.git#egg=HX711&subdirectory=HX711_Python3'`
