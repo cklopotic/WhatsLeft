@@ -30,7 +30,7 @@ def get_reading():
 
 def get_remaining_weight_lbs():
     weight = get_reading()
-    return round(float(weight) - float(IEMPTY_WEIGHT_LBS),2)
+    return round(float(weight) - float(EMPTY_WEIGHT_LBS),2)
     
 def get_status_remaining():
     weight_lbs = get_remaining_weight_lbs()
